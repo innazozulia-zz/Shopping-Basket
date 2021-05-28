@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MakeUp</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/simplebar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-nav">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <nav__item><a href="#" class="nav__link">Сatalog</a></nav__item>
+                    <nav__item><a href="#" class="nav__link">Promotions</a></nav__item>
+                    <nav__item><a href="#" class="nav__link">Payment and Delivery</a></nav__item>
+                    <nav__item><a href="#" class="nav__link">Work in a Сompany</a></nav__item>
+                    <nav__item><a href="#" class="nav__link">Сontacts</a></nav__item>
+                </ul>
+            <div class="header__cart cart " tabindex="0">
+                <div class="cart__text">Shopping Basket
+                    <span class="cart__quantity">0</span>
+                </div>
+                <div class="cart-content">
+                    <ul class="cart-content__list" data-simplebar>
+                    </ul>
+                    <div class="cart-content__bottom">
+                        <div class="cart-content__fullprice">
+                            <span class="sum">Sum:</span>
+                            <span class="fullprice"></span>
+                        </div>
+                        <button class="cart-content__btn btn">Go to cart</button>
+                        <button class="delete__btn btn">Delete All</button>
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        <div class="container">
+        <div class="products-content grid-container">
+            <div class="conrainer-filter">
+            <div class="filter">
+                <button class="button-filter button-type-all" data-filter="all">All items</button>
+                <button class="button-filter  button-type-new" data-filter="new">New items</button>
+                <button class="button-filter  button-type-bought" data-filter="bought">Bought items</button>
+                <button class="button-filter  button-type-sale" data-filter="sale">Sale</button>
+            </div>
+        </div>
+                    </div>
+            
+            <ul class="products-grid">
+
+                <li class="products-grid__item card new all"> 
+                    <article  class="product">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item ">
+                                <div class="image-switch__img img"><img class="main-img" src="images/1.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/6.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/2.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Corology</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,5</span>
+                        <span class="product__reviews">85 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:531246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">138$</span>
+                        <span class="priduct-price__old">256$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card sale all"> 
+                    <article  class="product">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/4.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/3.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                                </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Sante</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,3</span>
+                        <span class="product__reviews">47 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:535643975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">98$</span>
+                        <span class="priduct-price__old">200$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card new all"> 
+                    <article  class="product ">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/5.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/7.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Ordinary</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>5</span>
+                        <span class="product__reviews">135 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:312469675</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">179$</span>
+                        <span class="priduct-price__old">289$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card bought all"> 
+                    <article  class="product">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/8.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/9.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <!-- <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/2.jpg" alt="cosmetics-pic"></div>
+                            </div> -->
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Neauthy</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,2</span>
+                        <span class="product__reviews">37 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:312466975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">87$</span>
+                        <span class="priduct-price__old">146$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card sale all"> 
+                    <article  class="product ">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/10.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/11.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/12.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Bioglow</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,4</span>
+                        <span class="product__reviews">75 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:831246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">68$</span>
+                        <span class="priduct-price__old">176$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card new all"> 
+                    <article  class="product">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/15.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/14.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/13.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Clarins</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>5</span>
+                        <span class="product__reviews">183 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:231246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">188$</span>
+                        <span class="priduct-price__old">296$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card bought all"> 
+                    <article  class="product ">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/16.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/17.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/18.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Laroche Posay</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>5</span>
+                        <span class="product__reviews">85 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:831246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">159$</span>
+                        <span class="priduct-price__old">196$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card sale all"> 
+                    <article  class="product ">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/20.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/19.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/21.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Pharmacents</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,1</span>
+                        <span class="product__reviews">85 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:931246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">48$</span>
+                        <span class="priduct-price__old">89$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+
+                 <li class="products-grid__item card new all"> 
+                    <article  class="product">
+                    <a href="#" class="product__image">
+                        <div class="product__switch image__switch">
+                            <div class="image-switch__item">
+                                <div class="image-switch__img img"><img class="main-img" src="images/24.jpg" alt="cosmetics-pic"></div>
+                            </div> 
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/22.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                            <div class="image-switch__item"> 
+                                <div class="image-switch__img img"><img class="main-img" src="images/23.jpg" alt="cosmetics-pic"></div>
+                            </div>
+                        </div>
+                        <ul class="product__image-pagination image-pagination" aria-hidden="true">
+                            
+                        </ul>
+                    </a>
+                    <h3 class="product__title">
+                        <a href="#">Glossier</a>
+                    </h3>
+                    <div class="product__props">
+                        <span class="product__rating"><img class='img__rating' src="https://img.icons8.com/emoji/48/000000/star-emoji.png"/>4,5</span>
+                        <span class="product__reviews">93 reviews</span>
+                    </div>
+                    <div class="product__info">
+                        <span class="product__id">ID:131246975</span>
+                        <span class="product__available">in stock</span>
+                    </div>
+                    <div class="product__price product-price">
+                        <span class="product-price__current">167$</span>
+                        <span class="priduct-price__old">289$</span>
+                    </div>
+                    <button class="product__btn btn">Add to Shopping Cart</button>
+                </article>
+                 </li>
+            </ul>
+            <div class="height"></div>
+        </div>
+    </main>   
+   
+
+    <script src="filter.js"></script>
+    <script src="cart.js"></script>
+    <script src="simplebar.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
